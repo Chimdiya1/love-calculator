@@ -13,13 +13,14 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 5%;
     
 }
 .App p{
     margin-top: 1.5em;
     color: white;
     width: 80%;
-    line-height: 1.5em;
+    line-height: 1em;
 }
 .intro{
     margin-bottom: 2em;
@@ -33,24 +34,24 @@ body{
     text-decoration: none;
 }
 .MainCalc{
-    width: 70%;
-    height: 40vh;
+    width: 80%;
+    height: 40%;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    padding: 20px;
+    padding: 4%;
     align-items: center;
 }
 .MainCalc p{
     color: #000;
-    margin-top: 2em;
+    margin-top: 4%;
     font-size: 1em;
     margin-bottom: 1em;
 }
 .Form{
     height: 65%;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,8 +129,9 @@ body{
     border-radius: 30px;
     font-size: 16px;
 }
-@media only screen and (min-width: 400px){
+@media only screen and (min-width: 500px){
     body{
+        width: 100%;
         background-color: #2417B8;
         font-size: 7px;
         display: flex;
@@ -137,18 +139,21 @@ body{
         align-items: center;
         justify-content: center;
     }
+    #root{
+        width: 100%;
+    }
 .App{
+    font-size: 13px;
     margin-left: 15%;
-    width: 70%;
+    height: 80vh;
+    width: 60%;
     display: flex;
     flex-direction: column;
     height: 100vh;
     text-align: center;
-    
-    
 }
 .MainCalc{
-    width: 40%;
+    width: 50%;
 }
 #button{
     border:none;

@@ -48,7 +48,7 @@ class App extends React.Component {
       !/\S/.test(this.state.name1) ||
       !/\S/.test(this.state.name2) ||
       !!/[^a-z]/i.test(this.state.name1) ||
-      !!/[^a-z]/i.test(this.state.name1)
+      !!/[^a-z]/i.test(this.state.name2)
     )
     {
       this.setState({
